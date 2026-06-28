@@ -14,7 +14,7 @@ export default function ContactPage() {
           <p className="eyebrow">Contact</p>
           <h1>Tell GlobeTrek what you need help with.</h1>
           <p>
-            Send an inquiry for study abroad, visa support, travel packages, reservations, appointment
+            Send an inquiry for study abroad, travel packages, reservations, appointment
             booking, or general consultation.
           </p>
         </div>

@@ -79,7 +79,7 @@ export default function StudyAbroadPage() {
             <li>Academic records and personal details</li>
             <li>Preferred study destination and course direction</li>
             <li>Passport, travel history, and supporting documents</li>
-            <li>Questions about visa or appointment requirements</li>
+            <li>Questions about appointment requirements</li>
           </ul>
         </div>
       </section>

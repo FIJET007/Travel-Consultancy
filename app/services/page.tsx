@@ -7,13 +7,13 @@ interface Service {
 }
 
 const SERVICES: Service[] = [
-  { num: "01", title: "Application Profiling", desc: "Evaluating client eligibility and requirements for travel or visa applications." },
+  { num: "01", title: "Application Profiling", desc: "Evaluating client eligibility and requirements for travel applications." },
   { num: "02", title: "Form Filling", desc: "Assisting in accurately completing necessary application forms." },
   { num: "03", title: "Document Assessment", desc: "Reviewing and verifying client-submitted documents." },
   { num: "04", title: "Flight/Hotel Reservations", desc: "Providing tentative flight and accommodation reservations when required." },
-  { num: "05", title: "Document Upload/Submission", desc: "Facilitating document submissions for visa and travel processes." },
-  { num: "06", title: "Appointment Booking", desc: "Scheduling embassy or visa application centre appointments." },
-  { num: "07", title: "General Consultation", desc: "Offering expert advice on travel planning, visa requirements, and itinerary management." },
+  { num: "05", title: "Document Upload/Submission", desc: "Facilitating document submissions for travel processes." },
+  { num: "06", title: "Appointment Booking", desc: "Scheduling embassy or application centre appointments." },
+  { num: "07", title: "General Consultation", desc: "Offering expert advice on travel planning and itinerary management." },
 ];
 
 export default function ServicesPage() {

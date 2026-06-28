@@ -31,7 +31,7 @@ export default function AboutPage() {
             prepare more confidently for applications, reservations, appointments, and travel plans.
           </p>
           <p>
-            The business combines education consultancy, student recruitment, visa process support,
+            The business combines education consultancy, student recruitment,
             travel packages, and general travel consultation into one organized experience.
           </p>
         </div>
@@ -65,7 +65,7 @@ export default function AboutPage() {
           <p className="section-kicker">Our approach</p>
           <h2>Start with the client's goal, then build the right process around it.</h2>
           <p>
-            Every inquiry is different. A student may need school and visa preparation, while another
+            Every inquiry is different. A student may need school preparation, while another
             traveller may need reservations, appointment guidance, or trip planning. GlobeTrek's role is
             to make the process easier to understand and easier to act on.
           </p>

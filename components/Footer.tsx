@@ -10,7 +10,7 @@ export default function Footer() {
             <span>GlobeTrek Solutions</span>
           </Link>
           <p>
-            Education consultancy, student recruitment, visa support, travel packages, and travel
+            Education consultancy, student recruitment, travel packages, and travel
             consultation.
           </p>
         </div>
@@ -27,8 +27,8 @@ export default function Footer() {
         </div>
       </div>
       <div className="footer-note">
-        Consultations and document support do not guarantee visa approval. Final decisions are made by
-        the relevant institutions, embassies, and visa authorities.
+        Consultations and document support do not guarantee application approval. Final decisions are made by
+        the relevant institutions, embassies, and authorities.
       </div>
     </footer>
   );

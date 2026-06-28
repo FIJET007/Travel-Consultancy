@@ -14,7 +14,7 @@ export default function HomePage() {
           <p className="eyebrow">Education consultancy and travel support</p>
           <h1>GlobeTrek Solutions</h1>
           <p>
-            Practical guidance for study abroad plans, visa applications, travel packages,
+            Practical guidance for study abroad plans, travel packages,
             reservations, and consultation from first questions to final travel preparation.
           </p>
           <div className="hero-actions">
@@ -35,7 +35,7 @@ export default function HomePage() {
             <h2>From applications to arrival plans, GlobeTrek keeps the process organized.</h2>
           </div>
           <p>
-            Whether the goal is school admission, visa readiness, flight planning, or a tailored trip,
+            Whether the goal is school admission, flight planning, or a tailored trip,
             the website guides visitors to the right service and makes it easy to contact the team.
           </p>
         </div>
@@ -44,13 +44,13 @@ export default function HomePage() {
       <section className="section-inner services-preview">
         <div className="section-heading">
           <p className="section-kicker">Core services</p>
-          <h2>Support designed around student, visa, and travel needs.</h2>
+          <h2>Support designed around student and travel needs.</h2>
         </div>
         <div className="card-grid three">
           <article className="service-card">
             <span className="service-code">01</span>
             <h3>Application Profiling</h3>
-            <p>Eligibility review and requirement checks before travel or visa applications begin.</p>
+            <p>Eligibility review and requirement checks before travel applications begin.</p>
           </article>
           <article className="service-card">
             <span className="service-code">02</span>
@@ -60,7 +60,7 @@ export default function HomePage() {
           <article className="service-card">
             <span className="service-code">03</span>
             <h3>Travel Consultation</h3>
-            <p>Expert advice on travel planning, visa requirements, and itinerary management.</p>
+            <p>Expert advice on travel planning, itinerary management, and requirements.</p>
           </article>
         </div>
         <div className="center-action">
@@ -87,7 +87,7 @@ export default function HomePage() {
             </p>
             <ul className="check-list">
               <li>Structured consultation for study and travel goals</li>
-              <li>Document support before visa or travel submissions</li>
+              <li>Document support before travel submissions</li>
               <li>Quick inquiry routes through WhatsApp and email</li>
             </ul>
           </div>
@@ -103,7 +103,7 @@ export default function HomePage() {
           <article>
             <span>1</span>
             <h3>Share your goal</h3>
-            <p>Send the study, visa, or travel plan you want help with.</p>
+            <p>Send the study or travel plan you want help with.</p>
           </article>
           <article>
             <span>2</span>
@@ -122,7 +122,7 @@ export default function HomePage() {
         <div className="section-inner cta-inner">
           <div>
             <p className="section-kicker">Ready to begin?</p>
-            <h2>Ask GlobeTrek Solutions about your study, visa, or travel plan.</h2>
+            <h2>Ask GlobeTrek Solutions about your study or travel plan.</h2>
           </div>
           <Link className="btn btn-primary" href="/contact">
             Start an inquiry
