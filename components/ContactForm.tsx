@@ -51,8 +51,10 @@ export default function ContactForm() {
       `Message: ${data.get("message")}`,
     ].join("\n");
 
-    setStatus("Opening WhatsApp with your inquiry...");
-    window.open(`https://wa.me/2348038876566?text=${encodeURIComponent(message)}`, "_blank", "noopener");
+    const subject = encodeURIComponent("New Inquiry from GlobeTrek Website");
+    const body = encodeURIComponent(message);
+    window.location.href = `mailto:globetrektravels@outlook.com?subject=${subject}&body=${body}`;
+    setStatus("Opening your email client...");
   };
 
   return (
@@ -87,9 +89,9 @@ export default function ContactForm() {
         <textarea name="message" rows={5} required></textarea>
       </label>
       <p className="form-status" role="status">{status}</p>
-      <button className="btn btn-primary" type="submit">Send inquiry on WhatsApp</button>
-      <a className="email-fallback" href="mailto:globetrektravels@outlook.com">
-        Prefer email? Send a message instead.
+      <button className="btn btn-primary" type="submit">Send inquiry via email</button>
+      <a className="email-fallback" href="https://wa.me/2348038876566">
+        Prefer WhatsApp? Send a message instead.
       </a>
     </form>
   );
