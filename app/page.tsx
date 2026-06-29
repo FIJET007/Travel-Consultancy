@@ -30,14 +30,20 @@ export default function HomePage() {
 
       <section className="intro-band">
         <div className="section-inner intro-grid">
+          <div className="feature-image">
+            <img
+              src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=1400&q=80"
+              alt="Person planning a trip with documents and laptop"
+            />
+          </div>
           <div>
             <p className="section-kicker">Clear support for important journeys</p>
             <h2>From applications to arrival plans, GlobeTrek keeps the process organized.</h2>
+            <p>
+              Whether the goal is school admission, flight planning, or a tailored trip,
+              the website guides visitors to the right service and makes it easy to contact the team.
+            </p>
           </div>
-          <p>
-            Whether the goal is school admission, flight planning, or a tailored trip,
-            the website guides visitors to the right service and makes it easy to contact the team.
-          </p>
         </div>
       </section>
 

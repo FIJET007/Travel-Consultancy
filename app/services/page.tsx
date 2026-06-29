@@ -7,13 +7,41 @@ interface Service {
 }
 
 const SERVICES: Service[] = [
-  { num: "01", title: "Application Profiling", desc: "Evaluating client eligibility and requirements for travel applications." },
-  { num: "02", title: "Form Filling", desc: "Assisting in accurately completing necessary application forms." },
-  { num: "03", title: "Document Assessment", desc: "Reviewing and verifying client-submitted documents." },
-  { num: "04", title: "Flight/Hotel Reservations", desc: "Providing tentative flight and accommodation reservations when required." },
-  { num: "05", title: "Document Upload/Submission", desc: "Facilitating document submissions for travel processes." },
-  { num: "06", title: "Appointment Booking", desc: "Scheduling embassy or application centre appointments." },
-  { num: "07", title: "General Consultation", desc: "Offering expert advice on travel planning and itinerary management." },
+  {
+    num: "01",
+    title: "Application Profiling",
+    desc: "Evaluating client eligibility and requirements for travel applications.",
+  },
+  {
+    num: "02",
+    title: "Form Filling",
+    desc: "Assisting in accurately completing necessary application forms.",
+  },
+  {
+    num: "03",
+    title: "Document Assessment",
+    desc: "Reviewing and verifying client-submitted documents.",
+  },
+  {
+    num: "04",
+    title: "Flight/Hotel Reservations",
+    desc: "Providing tentative flight and accommodation reservations when required.",
+  },
+  {
+    num: "05",
+    title: "Document Upload/Submission",
+    desc: "Facilitating document submissions for travel processes.",
+  },
+  {
+    num: "06",
+    title: "Appointment Booking",
+    desc: "Scheduling embassy or application centre appointments.",
+  },
+  {
+    num: "07",
+    title: "General Consultation",
+    desc: "Offering expert advice on travel planning and itinerary management.",
+  },
 ];
 
 export default function ServicesPage() {
@@ -41,12 +69,17 @@ export default function ServicesPage() {
         <div className="section-inner feature-grid">
           <div className="feature-copy">
             <p className="section-kicker">Best for</p>
-            <h2>Students, applicants, and travellers who want a clearer route.</h2>
+            <h2>
+              Students, applicants, and travellers who want a clearer route.
+            </h2>
             <p>
-              The service mix is built for people who need help understanding requirements, preparing
-              documents, completing forms, scheduling appointments, or arranging travel support.
+              The service mix is built for people who need help understanding
+              requirements, preparing documents, completing forms, scheduling
+              appointments, or arranging travel support.
             </p>
-            <Link className="btn btn-primary" href="/contact">Ask about a service</Link>
+            <Link className="btn btn-primary" href="/contact">
+              Ask about a service
+            </Link>
           </div>
           <div className="feature-image">
             <img

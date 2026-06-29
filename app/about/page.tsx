@@ -21,11 +21,15 @@ export default function AboutPage() {
       </section>
 
       <section className="section-inner split-section">
+        <div className="feature-image">
+          <img
+            src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=1400&q=80"
+            alt="Business consultants working together"
+          />
+        </div>
         <div>
           <p className="section-kicker">Who we are</p>
           <h2>An education and travel consultancy built for clarity.</h2>
-        </div>
-        <div>
           <p>
             GlobeTrek Solutions helps students, families, and travellers understand their options and
             prepare more confidently for applications, reservations, appointments, and travel plans.
