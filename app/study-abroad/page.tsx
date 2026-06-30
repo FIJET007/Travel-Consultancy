@@ -6,8 +6,8 @@ export default function StudyAbroadPage() {
       <section className="page-hero">
         <img
           className="hero-media"
-          src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1800&q=80"
-          alt="Students preparing for study abroad"
+          src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1800&q=80"
+          alt="Students walking on a university campus"
         />
         <div className="hero-overlay"></div>
         <div className="hero-content">

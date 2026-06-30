@@ -337,6 +337,46 @@ a {
   box-shadow: 0 10px 26px rgba(15, 63, 59, 0.06);
 }
 
+.service-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  min-height: 280px;
+  padding: 28px;
+  border: 0;
+  background-size: cover;
+  background-position: center;
+  color: var(--white);
+  overflow: hidden;
+}
+
+.service-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(160deg, rgba(8, 63, 59, 0.15), rgba(8, 63, 59, 0.88));
+  z-index: 1;
+}
+
+.service-card h3,
+.service-card p {
+  position: relative;
+  z-index: 2;
+}
+
+.service-card h3 {
+  margin: 0 0 10px;
+  color: var(--white);
+  font-size: 1.2rem;
+  line-height: 1.2;
+}
+
+.service-card p {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.9);
+}
+
 .service-code,
 .process-card span {
   display: inline-flex;
@@ -352,7 +392,6 @@ a {
   font-weight: 900;
 }
 
-.service-card h3,
 .value-card h3,
 .process-card h3,
 .service-list h3,
@@ -364,7 +403,6 @@ a {
   line-height: 1.2;
 }
 
-.service-card p,
 .value-card p,
 .process-card p,
 .service-list p,

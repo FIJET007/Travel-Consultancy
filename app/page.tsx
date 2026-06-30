@@ -53,18 +53,33 @@ export default function HomePage() {
           <h2>Support designed around student and travel needs.</h2>
         </div>
         <div className="card-grid three">
-          <article className="service-card">
-            <span className="service-code">01</span>
+          <article
+            className="service-card"
+            style={{
+              backgroundImage:
+                'url(https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=800&q=80)',
+            }}
+          >
             <h3>Application Profiling</h3>
             <p>Eligibility review and requirement checks before travel applications begin.</p>
           </article>
-          <article className="service-card">
-            <span className="service-code">02</span>
+          <article
+            className="service-card"
+            style={{
+              backgroundImage:
+                'url(https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=800&q=80)',
+            }}
+          >
             <h3>Document Assessment</h3>
             <p>Reviewing client documents so submissions are clearer, complete, and better prepared.</p>
           </article>
-          <article className="service-card">
-            <span className="service-code">03</span>
+          <article
+            className="service-card"
+            style={{
+              backgroundImage:
+                'url(https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&w=800&q=80)',
+            }}
+          >
             <h3>Travel Consultation</h3>
             <p>Expert advice on travel planning, itinerary management, and requirements.</p>
           </article>
@@ -107,17 +122,35 @@ export default function HomePage() {
         </div>
         <div className="timeline">
           <article>
-            <span>1</span>
+            <span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <circle cx="12" cy="12" r="10"/>
+                <circle cx="12" cy="12" r="6"/>
+                <circle cx="12" cy="12" r="2"/>
+              </svg>
+            </span>
             <h3>Share your goal</h3>
             <p>Send the study or travel plan you want help with.</p>
           </article>
           <article>
-            <span>2</span>
+            <span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/>
+                <rect x="8" y="2" width="8" height="4" rx="1" ry="1"/>
+                <line x1="10" y1="11" x2="14" y2="11"/>
+                <line x1="10" y1="15" x2="14" y2="15"/>
+              </svg>
+            </span>
             <h3>Get profiled</h3>
             <p>The team reviews your eligibility, documents, and likely requirements.</p>
           </article>
           <article>
-            <span>3</span>
+            <span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                <polyline points="22 4 12 14.01 9 11.01"/>
+              </svg>
+            </span>
             <h3>Prepare properly</h3>
             <p>Receive guidance for forms, documents, appointments, reservations, or itinerary plans.</p>
           </article>
