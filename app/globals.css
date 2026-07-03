@@ -791,6 +791,7 @@ a {
 
   .card-grid.three,
   .card-grid.four,
+  .team-grid,
   .timeline,
   .footer-grid {
     grid-template-columns: 1fr;
