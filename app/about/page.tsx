@@ -43,7 +43,8 @@ export default function AboutPage() {
 
       <section className="section-inner team-section">
         <div className="section-heading">
-          <h2 className="section-kicker">Meet the team</h2>
+          <p className="section-kicker">Meet the team</p>
+          <h2>The people behind GlobeTrek Solutions.</h2>
         </div>
         <div className="team-grid">
           <article className="team-card">
@@ -66,35 +67,38 @@ export default function AboutPage() {
           </article>
           <article className="team-card">
             <img
-              src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=600&q=80"
-              alt="Team member"
+              src="/Stan.jpeg"
+              alt="Stan Opara"
             />
             <div>
-              <h3>Team Member Name</h3>
-              <p className="role">Role / Title</p>
-              <p>Short bio about this team member and their role at GlobeTrek Solutions.</p>
+              <h3>Stan Opara</h3>
+              <p className="role">Global Immigration & Expatriate Mobility Specialist</p>
+              <p>
+                A global immigration and expatriate mobility specialist with years of experience
+                leading complex cross-border assignments for multinational organisations in sectors
+                including oil and gas, power and utilities, financial services, infrastructure,
+                technology, and consumer markets. Skilled in immigration compliance, government and
+                public relations, and in shaping policies and operating structures that support
+                compliant mobility, employment, and residency.
+              </p>
             </div>
           </article>
           <article className="team-card">
             <img
-              src="https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=600&q=80"
-              alt="Team member"
+              src="/Temitope.jpeg"
+              alt="Temitope Monyeh"
             />
             <div>
-              <h3>Team Member Name</h3>
-              <p className="role">Role / Title</p>
-              <p>Short bio about this team member and their role at GlobeTrek Solutions.</p>
-            </div>
-          </article>
-          <article className="team-card">
-            <img
-              src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=600&q=80"
-              alt="Team member"
-            />
-            <div>
-              <h3>Team Member Name</h3>
-              <p className="role">Role / Title</p>
-              <p>Short bio about this team member and their role at GlobeTrek Solutions.</p>
+              <h3>Temitope Monyeh</h3>
+              <p className="role">Travel Consultant</p>
+              <p>
+                A Travel Consultant dedicated to making travel planning simple, seamless, and
+                stress-free. Works with individuals, families, students, and businesses to create
+                personalized travel experiences—from holidays and business travel to visa support
+                and study abroad journeys. With a keen eye for detail and a commitment to
+                exceptional service, ensures every trip is carefully planned so clients can travel
+                with confidence and peace of mind.
+              </p>
             </div>
           </article>
         </div>
