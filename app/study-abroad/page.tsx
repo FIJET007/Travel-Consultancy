@@ -71,8 +71,8 @@ export default function StudyAbroadPage() {
 
       <section className="section-inner logo-carousel-section">
         <div className="section-heading">
-          <p className="section-kicker">Our partner institutions</p>
-          <h2>Universities and schools we work with.</h2>
+          <h2 className="section-kicker">Our partner institutions</h2>
+          <h3>Universities and schools we work with.</h3>
         </div>
         <div className="logo-track-wrapper">
           <div className="logo-track">
